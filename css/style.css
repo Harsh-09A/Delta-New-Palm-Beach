@@ -101,7 +101,13 @@ main {
     content: url("../img/banners/mobile_banner1.jpg");
   }
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner2.jpg");
+    content: url("../img/banners/mobile_banner3.jpg");
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .mobileview {
+    display: none;
   }
 }
 /* overview  */
