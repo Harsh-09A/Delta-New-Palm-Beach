@@ -294,3 +294,11 @@ main {
   border: none !important;
   color: var(--colorBlack);
 }
+.pro-btn,
+.pro-btn:hover,
+.pro-btn:focus-visible,
+.pro-btn:active {
+  background-color: var(--colorPrimary) !important;
+  border: none !important;
+  color: var(--colorWhite);
+}
