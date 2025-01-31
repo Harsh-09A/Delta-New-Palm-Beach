@@ -79,6 +79,16 @@ header {
     height: 45px;
   }
 }
+.navbar-brand img {
+  height: 60px;
+  padding-left: 10px;
+}
+@media screen and (max-width: 600px) {
+  .navbar-brand img {
+    height: 50px;
+    padding-left: 10px;
+  }
+}
 
 /* Navbar Ends */
 
@@ -299,9 +309,9 @@ main {
 .submit-btn:hover,
 .submit-btn:focus-visible,
 .submit-btn:active {
-  background-color: var(--colorWhite) !important;
+  background-color: var(--colorSecondary) !important;
   border: none !important;
-  color: var(--colorBlack);
+  color: var(--colorWhite);
 }
 .pro-btn,
 .pro-btn:hover,
@@ -310,4 +320,15 @@ main {
   background-color: var(--colorPrimary) !important;
   border: none !important;
   color: var(--colorWhite);
+}
+.modal-logo img {
+  height: 80px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .modal-logo img {
+    height: 50px;
+    padding-left: 20px;
+  }
 }
