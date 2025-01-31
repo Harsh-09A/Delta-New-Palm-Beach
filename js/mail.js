@@ -33,7 +33,7 @@ const handleFormSubmit = async (
     privacy_check: document.getElementById(privacyField).value,
     ip_address: await getIpAddress(),
     website_url: window.location.href,
-    to_email: "aristosocialmedia9@gmail.com",
+    to_email: "aristorealestate5@gmail.com",
     company_name: "Delta New Palm Beach",
   };
 

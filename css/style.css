@@ -332,3 +332,33 @@ main {
     padding-left: 20px;
   }
 }
+
+.featured_img {
+  width: 100%;
+  max-width: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#featured_section .sub-heading {
+  color: var(--colorSecondary);
+  font-size: 1.2em;
+  font-style: italic;
+}
+.featured_para {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+}
+.featured_col {
+  padding: 20px;
+}
+.featured_row {
+  margin-top: 20px;
+  border: 1px dashed var(--colorPrimary);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
