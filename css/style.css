@@ -18,8 +18,8 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 :root {
-  --colorPrimary: #770913;
-  --colorSecondary: #380005;
+  --colorPrimary: #0c3845;
+  --colorSecondary: #1d92c3;
   --colorBlack: #000000;
   --colorWhite: #ffffff;
 
@@ -97,11 +97,14 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-  .carousel-item .banner0 {
-    content: url("../img/banners/mobile_banner1.jpg");
-  }
   .carousel-item .banner1 {
-    content: url("../img/banners/mobile_banner3.jpg");
+    content: url("../img/banners/mobile_banner01.jpg");
+  }
+  .carousel-item .banner2 {
+    content: url("../img/banners/mobile_banner02.jpg");
+  }
+  .carousel-item .banner3 {
+    content: url("../img/banners/mobile_banner03.jpg");
   }
 }
 
@@ -256,7 +259,7 @@ main {
 
 /* About */
 #about_section {
-  background-color: #380005;
+  background-color: var(--colorPrimary);
   background-repeat: no-repeat;
   background-size: cover;
   /* height: 970px; */
