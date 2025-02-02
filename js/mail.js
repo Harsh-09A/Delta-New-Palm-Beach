@@ -1,7 +1,7 @@
 (function () {
   emailjs.init({
-    // publicKey: "to9PlFrMMimgruuH0", //DIGIN
-    publicKey: "BwX8mmKlFidsWvP67", //HARSH
+    publicKey: "to9PlFrMMimgruuH0", //DIGIN
+    // publicKey: "BwX8mmKlFidsWvP67", //HARSH
   });
 })();
 
@@ -34,6 +34,7 @@ const handleFormSubmit = async (
     ip_address: await getIpAddress(),
     website_url: window.location.href,
     to_email: "aristorealestate5@gmail.com",
+    cc_email: "cbWR9lQS-197a6H60@v1-incoming-leads.privyr.com",
     company_name: "Delta New Palm Beach",
   };
 
